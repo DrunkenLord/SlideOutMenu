@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E8766CF43216E41CF0185DE /* Pods_SlideOutMenu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CB120CB46B81B2ACF5F3CF7 /* Pods_SlideOutMenu.framework */; };
+		2A2033221EA2DFEB00B560F8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A2033211EA2DFEB00B560F8 /* GoogleService-Info.plist */; };
 		2A20F1401EA231E1009641A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A20F13F1EA231E1009641A3 /* AppDelegate.swift */; };
 		2A20F1421EA231E1009641A3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A20F1411EA231E1009641A3 /* ViewController.swift */; };
 		2A20F1451EA231E1009641A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A20F1431EA231E1009641A3 /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		2A20F14A1EA231E1009641A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A20F1481EA231E1009641A3 /* LaunchScreen.storyboard */; };
 		2A20F1551EA231E2009641A3 /* SlideOutMenuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A20F1541EA231E2009641A3 /* SlideOutMenuTests.swift */; };
 		2A20F1601EA231E2009641A3 /* SlideOutMenuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A20F15F1EA231E2009641A3 /* SlideOutMenuUITests.swift */; };
+		2A20F1701EA2339A009641A3 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A20F16F1EA2339A009641A3 /* SWRevealViewController.m */; };
+		2A20F1761EA236B2009641A3 /* BackTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A20F1751EA236B2009641A3 /* BackTableVC.swift */; };
+		D936380B122C108FDE8D4DE4 /* Pods_SlideOutMenuTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCAD3EE71AA819C611114FCC /* Pods_SlideOutMenuTests.framework */; };
+		E15F667E9377A6E02B4A145B /* Pods_SlideOutMenuUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02CB7786D0EFF8F1708AFDB2 /* Pods_SlideOutMenuUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01C5DD92B6E62EEA9FAE2BB3 /* Pods-SlideOutMenuTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenuTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenuTests/Pods-SlideOutMenuTests.release.xcconfig"; sourceTree = "<group>"; };
+		02CB7786D0EFF8F1708AFDB2 /* Pods_SlideOutMenuUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideOutMenuUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CB120CB46B81B2ACF5F3CF7 /* Pods_SlideOutMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideOutMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2943422D937F0A011CC68B71 /* Pods-SlideOutMenuUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenuUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenuUITests/Pods-SlideOutMenuUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2A2033211EA2DFEB00B560F8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2A20F13C1EA231E1009641A3 /* SlideOutMenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideOutMenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A20F13F1EA231E1009641A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A20F1411EA231E1009641A3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +58,15 @@
 		2A20F15B1EA231E2009641A3 /* SlideOutMenuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SlideOutMenuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A20F15F1EA231E2009641A3 /* SlideOutMenuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideOutMenuUITests.swift; sourceTree = "<group>"; };
 		2A20F1611EA231E2009641A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A20F16D1EA2339A009641A3 /* SlideOutMenu-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideOutMenu-Bridging-Header.h"; sourceTree = "<group>"; };
+		2A20F16E1EA2339A009641A3 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		2A20F16F1EA2339A009641A3 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		2A20F1751EA236B2009641A3 /* BackTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackTableVC.swift; sourceTree = "<group>"; };
+		30E65CF3B6ED94F3963CD784 /* Pods-SlideOutMenuTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenuTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenuTests/Pods-SlideOutMenuTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5D8B88C3AA2AE2B5F0230C7E /* Pods-SlideOutMenu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu.debug.xcconfig"; sourceTree = "<group>"; };
+		912FC12DF6F4F0D2A080940C /* Pods-SlideOutMenuUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenuUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenuUITests/Pods-SlideOutMenuUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F556802E6E2D46CF65CB1364 /* Pods-SlideOutMenu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlideOutMenu.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu.release.xcconfig"; sourceTree = "<group>"; };
+		FCAD3EE71AA819C611114FCC /* Pods_SlideOutMenuTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlideOutMenuTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0E8766CF43216E41CF0185DE /* Pods_SlideOutMenu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D936380B122C108FDE8D4DE4 /* Pods_SlideOutMenuTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E15F667E9377A6E02B4A145B /* Pods_SlideOutMenuUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +104,8 @@
 				2A20F1531EA231E2009641A3 /* SlideOutMenuTests */,
 				2A20F15E1EA231E2009641A3 /* SlideOutMenuUITests */,
 				2A20F13D1EA231E1009641A3 /* Products */,
+				CD89F6756D40CD6F7C6879FF /* Pods */,
+				A2F5EE1EE73AAC4F5C0EE281 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +128,11 @@
 				2A20F1461EA231E1009641A3 /* Assets.xcassets */,
 				2A20F1481EA231E1009641A3 /* LaunchScreen.storyboard */,
 				2A20F14B1EA231E1009641A3 /* Info.plist */,
+				2A20F16E1EA2339A009641A3 /* SWRevealViewController.h */,
+				2A20F16F1EA2339A009641A3 /* SWRevealViewController.m */,
+				2A20F16D1EA2339A009641A3 /* SlideOutMenu-Bridging-Header.h */,
+				2A20F1751EA236B2009641A3 /* BackTableVC.swift */,
+				2A2033211EA2DFEB00B560F8 /* GoogleService-Info.plist */,
 			);
 			path = SlideOutMenu;
 			sourceTree = "<group>";
@@ -125,6 +155,29 @@
 			path = SlideOutMenuUITests;
 			sourceTree = "<group>";
 		};
+		A2F5EE1EE73AAC4F5C0EE281 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CB120CB46B81B2ACF5F3CF7 /* Pods_SlideOutMenu.framework */,
+				FCAD3EE71AA819C611114FCC /* Pods_SlideOutMenuTests.framework */,
+				02CB7786D0EFF8F1708AFDB2 /* Pods_SlideOutMenuUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD89F6756D40CD6F7C6879FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D8B88C3AA2AE2B5F0230C7E /* Pods-SlideOutMenu.debug.xcconfig */,
+				F556802E6E2D46CF65CB1364 /* Pods-SlideOutMenu.release.xcconfig */,
+				30E65CF3B6ED94F3963CD784 /* Pods-SlideOutMenuTests.debug.xcconfig */,
+				01C5DD92B6E62EEA9FAE2BB3 /* Pods-SlideOutMenuTests.release.xcconfig */,
+				912FC12DF6F4F0D2A080940C /* Pods-SlideOutMenuUITests.debug.xcconfig */,
+				2943422D937F0A011CC68B71 /* Pods-SlideOutMenuUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +185,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A20F1641EA231E2009641A3 /* Build configuration list for PBXNativeTarget "SlideOutMenu" */;
 			buildPhases = (
+				7064F6C41E6503561855D2DC /* [CP] Check Pods Manifest.lock */,
 				2A20F1381EA231E1009641A3 /* Sources */,
 				2A20F1391EA231E1009641A3 /* Frameworks */,
 				2A20F13A1EA231E1009641A3 /* Resources */,
+				D18EFDD6B252A89A03CBD855 /* [CP] Embed Pods Frameworks */,
+				D9DA742C0CD6ECE8EAE118D1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A20F1671EA231E2009641A3 /* Build configuration list for PBXNativeTarget "SlideOutMenuTests" */;
 			buildPhases = (
+				5F68370612D6CEA77092247B /* [CP] Check Pods Manifest.lock */,
 				2A20F14C1EA231E2009641A3 /* Sources */,
 				2A20F14D1EA231E2009641A3 /* Frameworks */,
 				2A20F14E1EA231E2009641A3 /* Resources */,
+				6C2C2229EBF6BD45C4CD63E9 /* [CP] Embed Pods Frameworks */,
+				AE0835F81A0FA77A15C9C8AC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A20F16A1EA231E2009641A3 /* Build configuration list for PBXNativeTarget "SlideOutMenuUITests" */;
 			buildPhases = (
+				03921D21D06801058CEFEFB0 /* [CP] Check Pods Manifest.lock */,
 				2A20F1571EA231E2009641A3 /* Sources */,
 				2A20F1581EA231E2009641A3 /* Frameworks */,
 				2A20F1591EA231E2009641A3 /* Resources */,
+				2D19DD9512005ECCB61107A5 /* [CP] Embed Pods Frameworks */,
+				E970367255EB572D1A331E34 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +255,7 @@
 				TargetAttributes = {
 					2A20F13B1EA231E1009641A3 = {
 						CreatedOnToolsVersion = 8.3.1;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					2A20F14F1EA231E2009641A3 = {
@@ -233,6 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A20F14A1EA231E1009641A3 /* LaunchScreen.storyboard in Resources */,
+				2A2033221EA2DFEB00B560F8 /* GoogleService-Info.plist in Resources */,
 				2A20F1471EA231E1009641A3 /* Assets.xcassets in Resources */,
 				2A20F1451EA231E1009641A3 /* Main.storyboard in Resources */,
 			);
@@ -254,6 +318,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03921D21D06801058CEFEFB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2D19DD9512005ECCB61107A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenuUITests/Pods-SlideOutMenuUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F68370612D6CEA77092247B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6C2C2229EBF6BD45C4CD63E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenuTests/Pods-SlideOutMenuTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7064F6C41E6503561855D2DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0835F81A0FA77A15C9C8AC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenuTests/Pods-SlideOutMenuTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D18EFDD6B252A89A03CBD855 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9DA742C0CD6ECE8EAE118D1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenu/Pods-SlideOutMenu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E970367255EB572D1A331E34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlideOutMenuUITests/Pods-SlideOutMenuUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A20F1381EA231E1009641A3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -261,6 +463,8 @@
 			files = (
 				2A20F1421EA231E1009641A3 /* ViewController.swift in Sources */,
 				2A20F1401EA231E1009641A3 /* AppDelegate.swift in Sources */,
+				2A20F1761EA236B2009641A3 /* BackTableVC.swift in Sources */,
+				2A20F1701EA2339A009641A3 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,30 +616,38 @@
 		};
 		2A20F1651EA231E2009641A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8B88C3AA2AE2B5F0230C7E /* Pods-SlideOutMenu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DrunkenLord.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/SlideOutMenu-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		2A20F1661EA231E2009641A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F556802E6E2D46CF65CB1364 /* Pods-SlideOutMenu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = SlideOutMenu/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DrunkenLord.SlideOutMenu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "SlideOutMenu/SlideOutMenu-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		2A20F1681EA231E2009641A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E65CF3B6ED94F3963CD784 /* Pods-SlideOutMenuTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -450,6 +662,7 @@
 		};
 		2A20F1691EA231E2009641A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01C5DD92B6E62EEA9FAE2BB3 /* Pods-SlideOutMenuTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -464,6 +677,7 @@
 		};
 		2A20F16B1EA231E2009641A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912FC12DF6F4F0D2A080940C /* Pods-SlideOutMenuUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SlideOutMenuUITests/Info.plist;
@@ -477,6 +691,7 @@
 		};
 		2A20F16C1EA231E2009641A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2943422D937F0A011CC68B71 /* Pods-SlideOutMenuUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SlideOutMenuUITests/Info.plist;
@@ -507,6 +722,7 @@
 				2A20F1661EA231E2009641A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A20F1671EA231E2009641A3 /* Build configuration list for PBXNativeTarget "SlideOutMenuTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +731,7 @@
 				2A20F1691EA231E2009641A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A20F16A1EA231E2009641A3 /* Build configuration list for PBXNativeTarget "SlideOutMenuUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +740,7 @@
 				2A20F16C1EA231E2009641A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
